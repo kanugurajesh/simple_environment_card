@@ -5,6 +5,7 @@
 }
 
 body {
+    min-width: 100vw;
     background: #2D2E36;
     display: flex;
     min-height: 100vh;
@@ -13,40 +14,8 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-}
-
-#container {
-    background: #383A45;
     width: 95%;
-    height: 550px;
-    margin: auto;
     max-width: 600px;
-    max-height: 600px;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-#container img:first-of-type {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-#container img:last-of-type {
-    width: 20px;
-}
-
-#container h1 {
-    color: #fff;
-    font-size: 1.7rem;
-    margin: 10px 0;
-    font-weight: lighter;
-}
-
-#container p {
-    max-width: 500px;
-    color: #8D91A6;
+    margin: auto;
+    padding: 15px;
 }
